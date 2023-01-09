@@ -64,14 +64,14 @@
             <div class="card">
               <div class="card-content">
                 <img
-                  class="card-img-top"
+                  class="card-img-top" 
                   src="./img/p-backpack02.jpg"
                   alt="Card image cap"
                 />
                 <p class="card-text">backpack for cat</p>
                 <p class="card-price">$200</p>
               </div>
-              <button class="add-cart-btn">ADD TO CART</button>
+              <button class="add-cart-btn" id="backpack-02-btn">ADD TO CART</button>
             </div>
           </div>
 
@@ -86,7 +86,7 @@
                 <p class="card-text">backpack for doggo</p>
                 <p class="card-price">$300</p>
               </div>
-              <button class="add-cart-btn">ADD TO CART</button>
+              <button class="add-cart-btn" id="backpack-01-btn">ADD TO CART</button>
             </div>
           </div>
 
@@ -101,7 +101,7 @@
                 <p class="card-text">doggo tent</p>
                 <p class="card-price">$400</p>
               </div>
-              <button class="add-cart-btn">ADD TO CART</button>
+              <button class="add-cart-btn" id="backpack-03-btn">ADD TO CART</button>
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@
                 <p class="card-text">doggo drink kit</p>
                 <p class="card-price">$100</p>
               </div>
-              <button class="add-cart-btn">ADD TO CART</button>
+              <button class="add-cart-btn" id="drink-01-btn">ADD TO CART</button>
             </div>
           </div>
 
@@ -133,7 +133,7 @@
                 <p class="card-text">hoodie raincoat</p>
                 <p class="card-price">$150</p>
               </div>
-              <button class="add-cart-btn">ADD TO CART</button>
+              <button class="add-cart-btn" id="shirt-01-btn">ADD TO CART</button>
             </div>
           </div>
 
@@ -148,7 +148,7 @@
                 <p class="card-text">doggo transport bag</p>
                 <p class="card-price">$500</p>
               </div>
-              <button class="add-cart-btn">ADD TO CART</button>
+              <button class="add-cart-btn" id="bed-01-btn">ADD TO CART</button>
             </div>
           </div>
         </div>
@@ -157,12 +157,12 @@
 
     <div id="pop-up">
       <div class="pop-up-content">
-        <img src="./img/p-backpack01.png" class="popImg">
+        <div class="popImg"></div>
         <div class="popInfo">
         <h5 class="popName">example</h5>
         <h5 class="popPrice">example<h5>
         <p class="popDesc">description</p>
-        <h5 class="popColor">Color</h5>
+        <h6 class="popColor">Color</h6>
         <div class="popColor-box">
         <input type="radio" id="popColorSelect" class="green" name="color" value="green">
         <input type="radio" id="popColorSelect" class="grey" name="color" value="grey">
@@ -170,8 +170,17 @@
         <input type="radio" id="popColorSelect" class="blue" name="color" value="blue">
         
         </div>
-        <h4 class="popAmount">Amount</h4>
+        <h6 class="popAmount">Amount</h6>
         <div class="popAmount-content">
+          <div class='add-cal'>
+	          <span class="material-symbols-outlined count-btn" data="minus">
+            remove
+            </span>
+	          <input type='text' value='1' id='addResult'>
+	          <span class="material-symbols-outlined count-btn" data="add">
+            add
+            </span>
+</div>
 
         </div>
         <button class="fin-popUp">checkout</button>

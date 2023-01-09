@@ -100,16 +100,24 @@ body {
 
 .popImg {
   display: inline-block;
+}
+
+.popImg img {
   width: 250px;
   height: 250px;
   object-fit: cover;
-  vertical-align: top;
+  vertical-align: bottom;
 }
 
 .popInfo {
   display: inline-block;
   width: 250px;
   padding-left: 30px;
+}
+
+.popDesc {
+  font-size: 12px;
+  color: #afafaf;
 }
 
 input[type="radio"] {
@@ -159,6 +167,28 @@ input[type="radio"]:checked {
   position: absolute;
   top: 30px;
   right: 30px;
+}
+
+.fin-popUp {
+  width: 50%;
+  background-color: #efefef;
+}
+
+.fin-popUp:hover {
+  width: 50%;
+  background-color: #2b2b2b;
+  color: #efefef;
+}
+.count-btn {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 20;
+  vertical-align: text-bottom;
+}
+
+#addResult {
+  width: 50%;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 0px;
 }
 
 .blur-bg {
