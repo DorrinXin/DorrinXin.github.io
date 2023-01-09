@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>products</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link href="./css/products.css" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="nav-container">
+      <div id="nav">
+        <ul>
+          <li><a href="./index.html">HOME</a></li>
+        </ul>
+        <ul>
+          <li class="active-tab"><a href="./products.html">PRODUCTS</a></li>
+        </ul>
+        <ul>
+          <li><a href="">SANITARY & CARE</a></li>
+        </ul>
+        <ul>
+          <li><a href="">ADOPT ME</a></li>
+        </ul>
+        <ul>
+          <li><a href="">LOGIN</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              ><span class="material-symbols-outlined cart-icon"
+                >shopping_cart</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="p-title"><img src="./img/products-title.png" /></div>
+
+    <div class="shopping-area">
+      <div id="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-content">
+                <img
+                  class="card-img-top"
+                  src="./img/p-backpack02.jpg"
+                  alt="Card image cap"
+                />
+                <p class="card-text">backpack for cat</p>
+                <p class="card-price">$200</p>
+              </div>
+              <button class="add-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-content">
+                <img
+                  class="card-img-top"
+                  src="./img/p-backpack01.png"
+                  alt="Card image cap"
+                />
+                <p class="card-text">backpack for doggo</p>
+                <p class="card-price">$300</p>
+              </div>
+              <button class="add-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-content">
+                <img
+                  class="card-img-top"
+                  src="./img/p-backpack03.png"
+                  alt="Card image cap"
+                />
+                <p class="card-text">doggo tent</p>
+                <p class="card-price">$400</p>
+              </div>
+              <button class="add-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-content">
+                <img
+                  class="card-img-top"
+                  src="./img/p-drink01.jpg"
+                  alt="Card image cap"
+                />
+                <p class="card-text">doggo drink kit</p>
+                <p class="card-price">$100</p>
+              </div>
+              <button class="add-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-content">
+                <img
+                  class="card-img-top"
+                  src="./img/p-shirt01.png"
+                  alt="Card image cap"
+                />
+                <p class="card-text">hoodie raincoat</p>
+                <p class="card-price">$150</p>
+              </div>
+              <button class="add-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-content">
+                <img
+                  class="card-img-top"
+                  src="./img/p-bed01.png"
+                  alt="Card image cap"
+                />
+                <p class="card-text">doggo transport bag</p>
+                <p class="card-price">$500</p>
+              </div>
+              <button class="add-cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pop-up">
+      <div class="pop-up-content">
+        <img src="./img/p-backpack01.png" class="popImg">
+        <div class="popInfo">
+        <h5 class="popName">example</h5>
+        <h5 class="popPrice">example<h5>
+        <p class="popDesc">description</p>
+        <h5 class="popColor">Color</h5>
+        <div class="popColor-box">
+        <input type="radio" id="popColorSelect" class="green" name="color" value="green">
+        <input type="radio" id="popColorSelect" class="grey" name="color" value="grey">
+        <input type="radio" id="popColorSelect" class="pink" name="color" value="pink">
+        <input type="radio" id="popColorSelect" class="blue" name="color" value="blue">
+        
+        </div>
+        <h4 class="popAmount">Amount</h4>
+        <div class="popAmount-content">
+
+        </div>
+        <button class="fin-popUp">checkout</button>
+        <span class="material-symbols-outlined close" >
+close
+</span>
+        </div>
+      </div>
+      
+    </div>
+    <div class="blur-bg"></div>
+
+    <script src="./js/jquery-3.6.1.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

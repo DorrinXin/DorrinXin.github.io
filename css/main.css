@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+  background-color: #efefef;
+}
+
+#nav-container {
+  width: 100vw;
+  height: 60px;
+  font-family: "Noto Sans TC", sans-serif;
+  position: fixed;
+  background-color: #efefef;
+  z-index: 100;
+}
+
+#nav ul {
+  display: inline-block;
+  width: fit-content;
+  padding: 0vw 5vw;
+  position: relative;
+  top: 10px;
+  left: 120px;
+}
+
+#nav li {
+  display: inline-block;
+}
+
+#nav li a {
+  color: black;
+  text-decoration: none;
+}
+#nav li a:hover {
+  font-weight: 700;
+  border-bottom: 2px solid;
+}
+
+#nav li a:active {
+  border-bottom: 2px solid;
+}
+
+.active-tab {
+  border-bottom: 2px solid;
+}
+
+.mainPage img {
+  width: 100vw;
+  height: auto;
+  object-fit: cover;
+}
