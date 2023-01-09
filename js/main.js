@@ -33,7 +33,7 @@ function change_popUpName(btn, bgName) {
 
 change_popUpName("#backpack-02-btn", "Backpack for Catto");
 change_popUpName("#backpack-01-btn", "Backpack for Doggo");
-change_popUpName("#backpack-03-btn", "Ourdoor Tent");
+change_popUpName("#backpack-03-btn", "Outdoor Tent");
 change_popUpName("#drink-01-btn", "Drinking Kit");
 change_popUpName("#shirt-01-btn", "Hoodie");
 change_popUpName("#bed-01-btn", "Outdoor Transport Bag");
