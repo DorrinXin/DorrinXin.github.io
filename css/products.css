@@ -182,7 +182,7 @@ input[type="radio"]:checked {
 }
 .count-btn {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 20;
-  vertical-align: bottom;
+  vertical-align: top;
   border: #000000 solid 2px;
 }
 
@@ -191,6 +191,7 @@ input[type="radio"]:checked {
   margin-bottom: 10px;
   text-align: center;
   padding: 0px;
+  border: #000000 solid 2px;
 }
 
 .blur-bg {
