@@ -68,7 +68,7 @@ body {
   position: relative;
   top: 30vw;
   padding: 2px;
-  margin: 0px;
+  margin: 0px -2px;
 }
 
 .add-cart-btn:hover {
@@ -259,8 +259,8 @@ input[type="radio"]:checked {
     z-index: 99;
     margin: auto;
     position: fixed;
-    top: 30%;
-    padding: 30px;
+    top: 5%;
+    padding: 20px;
     display: none;
   }
 
@@ -293,42 +293,6 @@ input[type="radio"]:checked {
     width: 20px;
     height: 20px;
     background-clip: content-box;
-  }
-
-  .green {
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    background-color: #c4f0e7;
-    background-clip: content-box;
-  }
-
-  .grey {
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    background-color: #d9d9d9;
-    background-clip: content-box;
-  }
-
-  .pink {
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    background-color: #f4d9d9;
-    background-clip: content-box;
-  }
-
-  .blue {
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    background-color: #84b9d0;
-    background-clip: content-box;
-  }
-
-  input[type="radio"]:checked {
-    border: 2px solid #555555;
   }
 
   .close {
