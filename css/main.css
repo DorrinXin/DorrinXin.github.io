@@ -37,7 +37,6 @@ body {
   height: 15px;
   font-size: 9px;
   color: #efefef;
-
   justify-content: center;
   border-radius: 25px;
   position: relative;
@@ -79,7 +78,7 @@ body {
   width: 50vw;
   height: 100%;
   background-color: #efefef;
-  z-index: 100;
+  z-index: 150;
   border-right: 1px solid #000000;
 }
 
@@ -104,6 +103,11 @@ body {
 }
 
 .hamburg {
+  margin: 20px;
+  position: fixed;
+}
+
+.hamburg-close {
   margin: 20px;
 }
 

@@ -1,5 +1,9 @@
 $(".hamburg").click(function () {
-  $("#nav-straight").toggle();
+  $("#nav-straight").show();
+});
+
+$(".hamburg-close").click(function () {
+  $("#nav-straight").hide();
 });
 
 $(".add-cart-btn").click(function () {

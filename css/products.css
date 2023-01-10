@@ -248,4 +248,118 @@ input[type="radio"]:checked {
     top: -98px;
     font-size: 12px;
   }
+
+  .pop-up-content {
+    flex: none;
+    width: 300px;
+    height: fit-content;
+    background-color: #efefef;
+    border: 2px solid #000000;
+    border-radius: 2px;
+    z-index: 99;
+    margin: auto;
+    position: fixed;
+    top: 30%;
+    padding: 30px;
+    display: none;
+  }
+
+  .popImg {
+    display: inline-block;
+  }
+
+  .popImg img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    vertical-align: bottom;
+    padding-top: 10px;
+  }
+
+  .popInfo {
+    display: inline-block;
+    width: 250px;
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+
+  .popDesc {
+    font-size: 12px;
+    color: #afafaf;
+  }
+
+  input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-clip: content-box;
+  }
+
+  .green {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #c4f0e7;
+    background-clip: content-box;
+  }
+
+  .grey {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #d9d9d9;
+    background-clip: content-box;
+  }
+
+  .pink {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #f4d9d9;
+    background-clip: content-box;
+  }
+
+  .blue {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #84b9d0;
+    background-clip: content-box;
+  }
+
+  input[type="radio"]:checked {
+    border: 2px solid #555555;
+  }
+
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .fin-popUp {
+    width: 100%;
+    background-color: #efefef;
+    border: #000000 2px solid;
+  }
+
+  .fin-popUp:hover {
+    width: 100%;
+    background-color: #2b2b2b;
+    color: #efefef;
+  }
+
+  .count-btn {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 20;
+    vertical-align: top;
+    border: #000000 solid 2px;
+  }
+
+  #addResult {
+    width: 74%;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0px;
+    border: #000000 solid 2px;
+  }
 }
