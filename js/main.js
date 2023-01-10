@@ -18,6 +18,7 @@ function change_popUpImg(btn, bgImg) {
     $(".popImg").html(bgImg);
   });
 }
+
 change_popUpImg("#backpack-02-btn", "<img src='./img/p-backpack02.jpg'>");
 change_popUpImg("#backpack-01-btn", "<img src='./img/p-backpack01.png'>");
 change_popUpImg("#backpack-03-btn", "<img src='./img/p-backpack03.png'>");
@@ -81,4 +82,17 @@ $(".count-btn").click(function () {
   } else if (btnType == "minus" && inputVal > 1) {
     $("#addResult").val(parseInt(inputVal) - 1);
   }
+});
+
+$(".fin-popUp").click(function () {
+  var inputVal = $("#addResult").val();
+  $("#addResult").val("1");
+  $(".numSoldCircle").show();
+  $(".numSoldCircle").css("display", " flex");
+});
+
+var count = 0;
+$(".fin-popUp").on("click", function () {
+  count++;
+  $(".numSold").text(count);
 });

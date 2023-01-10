@@ -23,12 +23,35 @@ body {
 
 #nav li {
   display: inline-block;
+  vertical-align: middle;
 }
 
 #nav li a {
   color: black;
   text-decoration: none;
 }
+
+.numSoldCircle {
+  background-color: cadetblue;
+  width: 15px;
+  height: 15px;
+  font-size: 9px;
+  color: #efefef;
+
+  justify-content: center;
+  border-radius: 25px;
+  position: relative;
+  top: 0px;
+  right: -10px;
+  display: none;
+}
+
+.numSold {
+  flex: none;
+  font-size: 9px;
+  color: #efefef;
+}
+
 #nav li a:hover {
   font-weight: 700;
   border-bottom: 2px solid;
@@ -40,6 +63,10 @@ body {
 
 .active-tab {
   border-bottom: 2px solid;
+}
+
+.cart-icon {
+  position: absolute;
 }
 
 .mainPage img {
