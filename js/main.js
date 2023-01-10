@@ -1,10 +1,14 @@
 $(".hamburg").click(function () {
-  $("#nav-straight").show();
+  $("#nav-straight").show("slow");
 });
 
 $(".hamburg-close").click(function () {
-  $("#nav-straight").hide();
+  $("#nav-straight").hide("slow");
 });
+
+// $("li").click(function () {
+//   $("#nav-straight").hide("slow");
+// });
 
 $(".add-cart-btn").click(function () {
   $(".pop-up-content").show();
@@ -19,6 +23,7 @@ $(".close ").click(function () {
 $(".fin-popUp").click(function () {
   $(".pop-up-content").hide();
   $(".blur-bg").hide();
+  alert("item successfully add to cart");
 });
 
 function change_popUpImg(btn, bgImg) {
@@ -93,7 +98,6 @@ $(".count-btn").click(function () {
 });
 
 $(".fin-popUp").click(function () {
-  var inputVal = $("#addResult").val();
   $("#addResult").val("1");
   $(".numSoldCircle").show();
   $(".numSoldCircle").css("display", " flex");
