@@ -211,7 +211,7 @@ input[type="radio"]:checked {
     position: relative;
     margin: 0px;
     top: -15px;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .card-price {
@@ -220,22 +220,32 @@ input[type="radio"]:checked {
     left: -1px;
     top: -17px;
     margin: 0px;
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 
 @media (max-width: 576px) {
+  #nav-container {
+    display: none;
+  }
+
+  #nav-container-straight {
+    display: block;
+  }
+
   .card-text {
     font-weight: 500;
+    font-size: 12px;
     position: relative;
     margin: 0px;
-    top: -113px;
-    left: 153px;
+    top: -98px;
+    left: 163px;
   }
   .card-price {
     font-weight: 500;
     position: relative;
-    left: 153px;
-    top: -103px;
+    left: 163px;
+    top: -98px;
+    font-size: 12px;
   }
 }
