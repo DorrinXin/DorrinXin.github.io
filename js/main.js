@@ -98,7 +98,6 @@ $(".count-btn").click(function () {
 });
 
 $(".fin-popUp").click(function () {
-  $("#addResult").val("1");
   $(".numSoldCircle").show();
   $(".numSoldCircle").css("display", " flex");
 });
